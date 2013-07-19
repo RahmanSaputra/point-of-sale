@@ -1,0 +1,35 @@
+#header{
+    font:normal 12px Tahoma,Verdana;
+    width:1028px;
+    height:50px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#FFF  transparent;
+}
+#menu{
+    font:normal 12px Tahoma,Verdana; 
+    width:1000px;
+    height:50px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#FFF transparent ;
+}
+input { font-family:Arial, Helvetica, sans-serif; color:#595959; font-size:18px;}
+a { outline:none; text-decoration:none;}
+.header h3 { color:#7f7f7f; font-size:17px; line-height:20px; margin:0; padding:0; font-weight:normal; outline:none;}
+.form { margin:0; padding:0;}
+.form fieldset { border:none; padding: 10px 0 0; margin:0;}
+.form .row { margin-bottom:6px; position:relative; line-height:33px;}
+.form .row input[type="text"], .form .row input[type="password"] { height:33px; line-height:33px; border:1px solid #c5c5c5; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; box-shadow: 0 0 5px rgba(0,0,0,.1), 0 2px 2px rgba(0,0,0,.1) inset; -moz-box-shadow: 0 0 5px rgba(0,0,0,.1), 0 2px 2px rgba(0,0,0,.1) inset; -webkit-box-shadow: 0 0 5px rgba(0,0,0,.1), 0 2px 2px rgba(0,0,0,.1) inset;}
+.form .row input[type="text"]:focus, .form .row input[type="text"]:hover, .form .row input[type="password"]:focus, .form .row input[type="password"]:hover { border:1px solid #b8d564; box-shadow: 0 0 5px #b8d564, 0 2px 2px rgba(0,0,0,.1) inset; -moz-box-shadow: 0 0 5px #b8d564, 0 2px 2px rgba(0,0,0,.1) inset; -webkit-box-shadow: 0 0 5px #b8d564, 0 2px 2px rgba(0,0,0,.1) inset;}
+.form .row input.login { background:url(../images/login.png) left center no-repeat #f5f5f5; width:318px; padding: 1px 5px 1px 45px;}
+.form .row input.password { background:url(../images/password.png) left center no-repeat #f5f5f5; width:193px; padding: 1px 5px 1px 45px; }
+.form .row input.Search { background:url(../images/search.png) left center no-repeat #f5f5f5; width:310px; padding: 1px 5px 1px 45px;}
+.form .row input.error { border:1px solid #eb9393; box-shadow: 0 0 5px #f7c4c4; -moz-box-shadow: 0 0 5px #f7c4c4; -webkit-box-shadow: 0 0 5px #f7c4c4; background-color:#fce4e4; }
+.form .row input[type="submit"]:hover { background:#51b1c7; background: -webkit-gradient(linear, bottom, top, from(#4297ab), to(#60cce3)); background: -moz-linear-gradient(bottom, #4297ab, #60cce3);}
+.form .row a.forgot { position:absolute; top:2px; right:10px; color:#909090; font-size:12px; text-shadow:1px 1px 1px #fff;}
+.form .row a.forgot:hover { color:#6e6e6e;}
+.form .row input[type="checkbox"] { display:block; float:left; margin: 9px 6px 9px 2px; }
+.form .row label { color:#086f86; font-size:14px; display:block; float:left; }
+.form .row input[type="submit"]  { cursor:pointer; color:#1c464e; text-shadow:1px 1px 0 #aaeaf7; border:1px solid #289cb8; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; background:#67bbcf; background: -webkit-gradient(linear, bottom, top, from(#67bbcf), to(#82def1)); background: -moz-linear-gradient(bottom,  #67bbcf,  #82def1); font-size:16px; padding:5px 20px; font-weight:bold; float:right;}
+.form .row input[type="submit"]:hover { left background:#51b1c7; background: -webkit-gradient(linear, bottom, top, from(#4297ab), to(#60cce3)); background: -moz-linear-gradient(bottom, #4297ab, #60cce3);}
